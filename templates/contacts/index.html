@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Management</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  </head>
+  <body>
+    <nav>
+      <label class="logo">Contact Manager</label>
+      <ul>
+        <li><a href="{% url 'users:logout' %}">Logout</a></li>
+      </ul>
+    </nav>
+    
+    <div class="sidenav">
+      <ul>
+        <li><a href="{% url 'contacts:createContact' %}">Add Contact</a></li>
+        <li><a href="{% url 'contacts:readContact' %}">Read Contact</a></li>
+        <li><a href="{% url 'contacts:updateContact' %}">Update Contact</a></li>
+        <li><a href="{% url 'contacts:deleteContact' %}">Delete Contact</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
