@@ -1,0 +1,678 @@
+[contactor] INFO 2024-03-26 20:36:50,348 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 20:42:13,090 /home/mac/Documents/Projects/python/django/Contact_Management_System/contactApp/settings.py changed, reloading.
+[contactor] INFO 2024-03-26 20:42:13,385 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 20:42:35,154 "POST /accounts/register/ HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 20:42:35,170 "GET /accounts/register/ HTTP/1.1" 200 1386
+[contactor] INFO 2024-03-26 20:42:35,231 "GET /static/css/login.css HTTP/1.1" 200 1682
+[contactor] INFO 2024-03-26 20:43:07,316 /home/mac/Documents/Projects/python/django/Contact_Management_System/contactApp/settings.py changed, reloading.
+[contactor] INFO 2024-03-26 20:43:07,624 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 20:43:14,238 "GET /accounts/register/ HTTP/1.1" 200 1241
+[contactor] INFO 2024-03-26 20:43:14,261 "GET /static/css/login.css HTTP/1.1" 200 1682
+[contactor] INFO 2024-03-26 20:43:23,409 "POST /accounts/register/ HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 20:43:23,421 "GET /accounts/register/ HTTP/1.1" 200 1386
+[contactor] INFO 2024-03-26 20:43:23,483 "GET /static/css/login.css HTTP/1.1" 200 1682
+[contactor] INFO 2024-03-26 20:44:21,013 "GET /accounts/register/ HTTP/1.1" 200 1241
+[contactor] INFO 2024-03-26 20:44:21,024 "GET /static/css/login.css HTTP/1.1" 200 1682
+[contactor] INFO 2024-03-26 20:45:07,614 "POST /accounts/register/ HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 20:45:07,620 "GET /accounts/register/ HTTP/1.1" 200 1386
+[contactor] INFO 2024-03-26 20:45:07,677 "GET /static/css/login.css HTTP/1.1" 200 1682
+[contactor] INFO 2024-03-26 20:45:38,802 /home/mac/Documents/Projects/python/django/Contact_Management_System/contactApp/settings.py changed, reloading.
+[contactor] INFO 2024-03-26 20:45:39,095 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 20:49:15,869 /home/mac/Documents/Projects/python/django/Contact_Management_System/contactApp/settings.py changed, reloading.
+[contactor] INFO 2024-03-26 20:51:06,339 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 20:51:37,068 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 20:51:57,392 /home/mac/Documents/Projects/python/django/Contact_Management_System/contactApp/settings.py changed, reloading.
+[contactor] INFO 2024-03-26 20:51:57,646 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 20:52:20,119 /home/mac/Documents/Projects/python/django/Contact_Management_System/users/views.py changed, reloading.
+[contactor] INFO 2024-03-26 20:52:20,408 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 20:52:34,158 "GET /accounts/login/ HTTP/1.1" 200 1054
+[contactor] INFO 2024-03-26 20:52:34,183 "GET /static/css/login.css HTTP/1.1" 200 1682
+[contactor] INFO 2024-03-26 20:52:39,311 "POST /accounts/login/ HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 20:52:39,328 "GET /accounts/login/ HTTP/1.1" 200 1226
+[contactor] INFO 2024-03-26 20:52:39,404 "GET /static/css/login.css HTTP/1.1" 200 1682
+[contactor] INFO 2024-03-26 20:54:34,305 /home/mac/Documents/Projects/python/django/Contact_Management_System/users/views.py changed, reloading.
+[contactor] INFO 2024-03-26 20:54:34,611 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 20:56:13,047 /home/mac/Documents/Projects/python/django/Contact_Management_System/users/views.py changed, reloading.
+[contactor] INFO 2024-03-26 20:56:13,347 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 20:57:16,292 /home/mac/Documents/Projects/python/django/Contact_Management_System/users/views.py changed, reloading.
+[contactor] INFO 2024-03-26 20:57:16,610 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 20:57:21,323 "GET /accounts/login/ HTTP/1.1" 200 1054
+[contactor] INFO 2024-03-26 20:57:21,344 "GET /static/css/login.css HTTP/1.1" 200 1682
+[contactor] INFO 2024-03-26 20:57:24,852 "GET /accounts/register/ HTTP/1.1" 200 1241
+[contactor] INFO 2024-03-26 20:57:24,877 "GET /static/css/login.css HTTP/1.1" 200 1682
+[contactor] INFO 2024-03-26 20:57:34,905 "POST /accounts/register/ HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 20:57:34,911 "GET /accounts/register/ HTTP/1.1" 200 1500
+[contactor] INFO 2024-03-26 20:57:34,971 "GET /static/css/login.css HTTP/1.1" 200 1682
+[contactor] INFO 2024-03-26 21:06:17,386 /home/mac/Documents/Projects/python/django/Contact_Management_System/users/views.py changed, reloading.
+[contactor] INFO 2024-03-26 21:06:17,671 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 21:06:31,022 /home/mac/Documents/Projects/python/django/Contact_Management_System/users/utils.py changed, reloading.
+[contactor] INFO 2024-03-26 21:06:31,323 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 21:06:52,766 /home/mac/Documents/Projects/python/django/Contact_Management_System/contactApp/urls.py changed, reloading.
+[contactor] INFO 2024-03-26 21:06:53,045 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 21:07:52,021 /home/mac/Documents/Projects/python/django/Contact_Management_System/users/utils.py changed, reloading.
+[contactor] INFO 2024-03-26 21:07:52,331 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 21:09:02,428 /home/mac/Documents/Projects/python/django/Contact_Management_System/contactApp/middleware/handleServerErrors.py changed, reloading.
+[contactor] INFO 2024-03-26 21:09:02,729 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 21:09:25,169 /home/mac/Documents/Projects/python/django/Contact_Management_System/contactApp/middleware/handleServerErrors.py changed, reloading.
+[contactor] INFO 2024-03-26 21:09:25,468 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 21:10:08,213 /home/mac/Documents/Projects/python/django/Contact_Management_System/contactApp/middleware/handleServerErrors.py changed, reloading.
+[contactor] INFO 2024-03-26 21:10:08,524 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 21:10:34,044 /home/mac/Documents/Projects/python/django/Contact_Management_System/contactApp/middleware/handleServerErrors.py changed, reloading.
+[contactor] INFO 2024-03-26 21:10:34,334 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 21:10:43,651 /home/mac/Documents/Projects/python/django/Contact_Management_System/contactApp/urls.py changed, reloading.
+[contactor] INFO 2024-03-26 21:10:43,959 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 21:10:53,643 "GET /accounts/registercc/ HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 21:10:53,659 "GET /accounts/login/ HTTP/1.1" 200 1054
+[contactor] INFO 2024-03-26 21:10:53,757 "GET /static/css/login.css HTTP/1.1" 200 1682
+[contactor] INFO 2024-03-26 21:12:03,213 /home/mac/Documents/Projects/python/django/Contact_Management_System/users/views.py changed, reloading.
+[contactor] INFO 2024-03-26 21:12:03,525 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 21:12:33,073 /home/mac/Documents/Projects/python/django/Contact_Management_System/contactApp/urls.py changed, reloading.
+[contactor] INFO 2024-03-26 21:12:33,376 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 21:16:28,361 /home/mac/Documents/Projects/python/django/Contact_Management_System/users/views.py changed, reloading.
+[contactor] INFO 2024-03-26 21:16:28,659 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 21:16:49,479 "GET /accounts/login/ HTTP/1.1" 200 1054
+[contactor] INFO 2024-03-26 21:16:49,495 "GET /static/css/login.css HTTP/1.1" 200 1682
+[contactor] INFO 2024-03-26 21:16:55,198 "POST /accounts/login/ HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 21:16:55,212 "GET /accounts/login/ HTTP/1.1" 200 1226
+[contactor] INFO 2024-03-26 21:16:55,272 "GET /static/css/login.css HTTP/1.1" 200 1682
+[contactor] INFO 2024-03-26 21:17:02,090 "POST /accounts/login/ HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 21:17:02,094 "GET /accounts/login/ HTTP/1.1" 200 1202
+[contactor] INFO 2024-03-26 21:17:02,146 "GET /static/css/login.css HTTP/1.1" 200 1682
+[contactor] INFO 2024-03-26 21:17:10,009 "POST /accounts/login/ HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 21:17:10,031 "GET /contacts/ HTTP/1.1" 200 747
+[contactor] INFO 2024-03-26 21:17:10,111 "GET /static/css/style.css HTTP/1.1" 200 1791
+[contactor] ERROR 2024-03-26 21:17:13,701 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:13,707 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:13,722 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:13,724 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:13,770 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:13,771 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:13,829 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:13,832 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:13,894 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:13,898 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:13,948 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:13,950 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:14,013 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:14,017 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:14,068 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:14,070 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:14,121 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:14,123 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:14,174 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:14,176 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:14,237 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:14,240 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:14,293 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:14,296 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:14,355 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:14,358 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:14,448 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:14,459 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:14,507 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:14,508 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:14,554 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:14,555 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:14,607 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:14,611 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:14,672 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:14,675 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:14,736 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:14,740 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:14,800 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:14,804 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:15,946 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:15,948 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:15,957 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:15,958 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:16,022 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:16,026 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:16,090 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:16,094 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:16,156 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:16,161 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:16,220 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:16,225 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:16,285 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:16,291 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:16,354 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:16,359 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:16,426 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:16,431 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:16,495 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:16,499 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:16,559 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:16,563 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:16,623 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:16,628 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:16,690 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:16,695 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:16,797 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:16,836 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:16,847 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:16,853 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:16,909 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:16,911 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:16,958 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:16,959 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:17,017 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:17,023 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:17,082 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:17,086 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] ERROR 2024-03-26 21:17:17,146 Internal Server Error: /contacts/create
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view contacts.views.createContact didn't return an HttpResponse object. It returned None instead.
+[contactor] INFO 2024-03-26 21:17:17,150 "GET /contacts/create HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 21:17:22,423 "GET /accounts/logout HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 21:17:22,434 "GET /accounts/login/ HTTP/1.1" 200 6118
+[contactor] INFO 2024-03-26 21:17:22,498 "GET /static/css/login.css HTTP/1.1" 200 1682
+[contactor] INFO 2024-03-26 21:17:35,757 "GET /accounts/login/ HTTP/1.1" 200 1054
+[contactor] INFO 2024-03-26 21:17:35,787 "GET /static/css/login.css HTTP/1.1" 200 1682
+[contactor] INFO 2024-03-26 21:22:21,270 /home/mac/Documents/Projects/python/django/Contact_Management_System/contactApp/middleware/handleServerErrors.py changed, reloading.
+[contactor] INFO 2024-03-26 21:22:21,578 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 21:23:13,418 /home/mac/Documents/Projects/python/django/Contact_Management_System/users/userValidators.py changed, reloading.
+[contactor] INFO 2024-03-26 21:23:13,712 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 21:26:07,923 /home/mac/Documents/Projects/python/django/Contact_Management_System/users/userValidators.py changed, reloading.
+[contactor] INFO 2024-03-26 21:26:08,240 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 21:27:44,452 "POST /accounts/login/ HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 21:27:44,462 "GET /contacts/ HTTP/1.1" 200 747
+[contactor] INFO 2024-03-26 21:27:44,526 "GET /static/css/style.css HTTP/1.1" 200 1791
+[contactor] INFO 2024-03-26 22:14:27,364 "GET / HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:14:27,372 "GET /contacts/ HTTP/1.1" 200 747
+[contactor] INFO 2024-03-26 22:15:16,764 /home/mac/Documents/Projects/python/django/Contact_Management_System/contacts/views.py changed, reloading.
+[contactor] INFO 2024-03-26 22:15:17,056 Watching for file changes with StatReloader
+[contactor] INFO 2024-03-26 22:15:19,897 "GET /contacts/ HTTP/1.1" 200 3917
+[contactor] INFO 2024-03-26 22:15:19,922 "GET /static/css/contact.css HTTP/1.1" 200 23424
+[contactor] INFO 2024-03-26 22:15:19,926 "GET /w3images/avatar_g2.jpg HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:15:19,930 "GET /contacts/ HTTP/1.1" 200 3917
+[contactor] INFO 2024-03-26 22:16:59,191 "GET /contacts/ HTTP/1.1" 200 3926
+[contactor] INFO 2024-03-26 22:16:59,203 "GET /static/css/contact.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:16:59,207 "GET /w3images/avatar_g2.jpg HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:16:59,214 "GET /contacts/ HTTP/1.1" 200 3926
+[contactor] INFO 2024-03-26 22:17:47,785 "GET /contacts/ HTTP/1.1" 200 3845
+[contactor] INFO 2024-03-26 22:17:47,801 "GET /static/css/contact.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:17:47,807 "GET /w3images/avatar_g2.jpg HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:17:47,813 "GET /contacts/ HTTP/1.1" 200 3845
+[contactor] INFO 2024-03-26 22:20:59,749 "GET /contacts/ HTTP/1.1" 200 3707
+[contactor] INFO 2024-03-26 22:20:59,763 "GET /static/css/contact.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:20:59,765 "GET /static/css/font-awesome.min.css HTTP/1.1" 200 31000
+[contactor] INFO 2024-03-26 22:20:59,771 "GET /w3images/avatar_g2.jpg HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:20:59,822 "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:20:59,825 "GET /contacts/ HTTP/1.1" 200 3707
+[contactor] INFO 2024-03-26 22:20:59,881 "GET /contacts/ HTTP/1.1" 200 3707
+[contactor] INFO 2024-03-26 22:20:59,949 "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:21:00,002 "GET /contacts/ HTTP/1.1" 200 3707
+[contactor] INFO 2024-03-26 22:21:00,067 "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:21:00,123 "GET /contacts/ HTTP/1.1" 200 3707
+[contactor] INFO 2024-03-26 22:21:36,635 "GET /contacts/ HTTP/1.1" 200 3707
+[contactor] INFO 2024-03-26 22:21:36,668 "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:21:36,672 "GET /w3images/avatar_g2.jpg HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:21:36,678 "GET /contacts/ HTTP/1.1" 200 3707
+[contactor] INFO 2024-03-26 22:21:36,727 "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:21:36,788 "GET /contacts/ HTTP/1.1" 200 3707
+[contactor] INFO 2024-03-26 22:21:36,854 "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:21:36,912 "GET /contacts/ HTTP/1.1" 200 3707
+[contactor] INFO 2024-03-26 22:21:36,980 "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:21:37,038 "GET /contacts/ HTTP/1.1" 200 3707
+[contactor] INFO 2024-03-26 22:26:29,877 "GET /contacts/ HTTP/1.1" 200 3630
+[contactor] INFO 2024-03-26 22:26:29,888 "GET /static/css/contact.css HTTP/1.1" 200 29219
+[contactor] INFO 2024-03-26 22:26:29,891 "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:26:29,897 "GET /w3images/avatar_g2.jpg HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:26:29,944 "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:26:29,946 "GET /contacts/ HTTP/1.1" 200 3630
+[contactor] INFO 2024-03-26 22:26:29,996 "GET /contacts/ HTTP/1.1" 200 3630
+[contactor] INFO 2024-03-26 22:26:30,063 "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:26:30,120 "GET /contacts/ HTTP/1.1" 200 3630
+[contactor] INFO 2024-03-26 22:26:30,184 "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:26:30,240 "GET /contacts/ HTTP/1.1" 200 3630
+[contactor] INFO 2024-03-26 22:27:18,511 "GET /contacts/ HTTP/1.1" 200 3554
+[contactor] INFO 2024-03-26 22:27:18,535 "GET /static/css/contact.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:27:18,541 "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:27:18,544 "GET /w3images/avatar_g2.jpg HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:27:18,550 "GET /contacts/ HTTP/1.1" 200 3554
+[contactor] INFO 2024-03-26 22:27:18,595 "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:27:18,651 "GET /contacts/ HTTP/1.1" 200 3554
+[contactor] INFO 2024-03-26 22:27:18,717 "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:27:18,769 "GET /contacts/ HTTP/1.1" 200 3554
+[contactor] INFO 2024-03-26 22:27:18,829 "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:27:18,887 "GET /contacts/ HTTP/1.1" 200 3554
+[contactor] INFO 2024-03-26 22:32:32,160 "GET /contacts/ HTTP/1.1" 200 3353
+[contactor] INFO 2024-03-26 22:32:32,172 "GET /static/css/contact.css HTTP/1.1" 200 27575
+[contactor] INFO 2024-03-26 22:32:32,177 "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:32:32,179 "GET /w3images/avatar_g2.jpg HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:32:32,184 "GET /contacts/ HTTP/1.1" 200 3353
+[contactor] INFO 2024-03-26 22:32:32,226 "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:32:32,287 "GET /contacts/ HTTP/1.1" 200 3353
+[contactor] INFO 2024-03-26 22:32:32,353 "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:32:32,399 "GET /contacts/ HTTP/1.1" 200 3353
+[contactor] INFO 2024-03-26 22:32:32,461 "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:32:32,519 "GET /contacts/ HTTP/1.1" 200 3353
+[contactor] INFO 2024-03-26 22:32:33,802 "GET /contacts/ HTTP/1.1" 200 3353
+[contactor] INFO 2024-03-26 22:32:33,814 "GET /static/css/contact.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:32:33,818 "GET /w3images/avatar_g2.jpg HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:32:33,823 "GET /contacts/ HTTP/1.1" 200 3353
+[contactor] INFO 2024-03-26 22:35:22,452 "GET /contacts/ HTTP/1.1" 200 3459
+[contactor] INFO 2024-03-26 22:35:22,470 "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:35:22,470 "GET /static/css/contact.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:35:22,476 "GET /w3images/avatar_g2.jpg HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:35:22,541 "GET /contacts/ HTTP/1.1" 200 3459
+[contactor] INFO 2024-03-26 22:35:40,669 "GET /contacts/ HTTP/1.1" 200 3458
+[contactor] INFO 2024-03-26 22:35:40,680 "GET /static/css/contact.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:35:40,684 "GET /w3images/avatar_g2.jpg HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:35:40,690 "GET /contacts/ HTTP/1.1" 200 3458
+[contactor] INFO 2024-03-26 22:35:40,751 "GET /contacts/ HTTP/1.1" 200 3458
+[contactor] INFO 2024-03-26 22:35:40,831 "GET /w3images/avatar_g2.jpg HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:35:40,892 "GET /contacts/ HTTP/1.1" 200 3458
+[contactor] INFO 2024-03-26 22:37:39,842 "GET /contacts/ HTTP/1.1" 200 3448
+[contactor] INFO 2024-03-26 22:37:39,866 "GET /static/css/contact.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:37:39,870 "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:37:39,873 "GET /w3images/avatar_g2.jpg HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:37:39,878 "GET /contacts/ HTTP/1.1" 200 3448
+[contactor] INFO 2024-03-26 22:40:32,680 "GET /contacts/ HTTP/1.1" 200 3500
+[contactor] INFO 2024-03-26 22:40:32,694 "GET /static/css/contact.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:40:32,698 "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:40:32,706 "GET /w3images/avatar_g2.jpg HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:40:32,764 "GET /contacts/ HTTP/1.1" 200 3500
+[contactor] INFO 2024-03-26 22:43:07,449 "GET /contacts/ HTTP/1.1" 200 3439
+[contactor] INFO 2024-03-26 22:43:07,464 "GET /static/css/contact.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:43:07,469 "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:44:34,500 "GET /contacts/ HTTP/1.1" 200 3487
+[contactor] INFO 2024-03-26 22:44:34,515 "GET /static/css/contact.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:45:08,096 "GET /contacts/ HTTP/1.1" 200 3488
+[contactor] INFO 2024-03-26 22:46:30,387 "GET /contacts/ HTTP/1.1" 200 3528
+[contactor] INFO 2024-03-26 22:46:30,406 "GET /static/css/contact.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:46:30,408 "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:46:53,986 "GET /contacts/ HTTP/1.1" 200 3529
+[contactor] INFO 2024-03-26 22:47:13,657 "GET /contacts/ HTTP/1.1" 200 3529
+[contactor] INFO 2024-03-26 22:47:45,733 "GET /contacts/ HTTP/1.1" 200 3508
+[contactor] INFO 2024-03-26 22:49:58,999 "GET /contacts/ HTTP/1.1" 200 3519
+[contactor] INFO 2024-03-26 22:49:59,036 "GET /static/css/contact.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:49:59,036 "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:50:32,077 "GET /contacts/ HTTP/1.1" 200 3525
+[contactor] INFO 2024-03-26 22:52:10,442 "GET /contacts/ HTTP/1.1" 200 3509
+[contactor] INFO 2024-03-26 22:52:10,478 "GET /static/css/contact.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:54:17,668 "GET /contacts/ HTTP/1.1" 200 3570
+[contactor] INFO 2024-03-26 22:54:17,682 "GET /static/css/contact.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:54:17,683 "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:54:18,772 "GET /contacts/ HTTP/1.1" 200 3570
+[contactor] INFO 2024-03-26 22:54:19,469 "GET /contacts/ HTTP/1.1" 200 3570
+[contactor] INFO 2024-03-26 22:55:05,120 "GET /contacts/ HTTP/1.1" 200 3594
+[contactor] INFO 2024-03-26 22:55:07,930 "GET /accounts/logout HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:55:07,945 "GET /accounts/login/ HTTP/1.1" 200 1054
+[contactor] INFO 2024-03-26 22:55:15,869 "POST /accounts/login/ HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:55:15,892 "GET /contacts/ HTTP/1.1" 200 3594
+[contactor] INFO 2024-03-26 22:55:21,257 "GET /accounts/logout HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:55:21,271 "GET /accounts/login/ HTTP/1.1" 200 1054
+[contactor] INFO 2024-03-26 22:55:44,412 "POST /accounts/login/ HTTP/1.1" 302 0
+[contactor] INFO 2024-03-26 22:55:44,416 "GET /contacts/ HTTP/1.1" 200 3594
+[contactor] INFO 2024-03-26 22:57:49,364 "GET /contacts/ HTTP/1.1" 200 2411
+[contactor] INFO 2024-03-26 22:57:49,386 "GET /static/css/contact.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:57:49,388 "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 22:58:20,883 "GET /contacts/ HTTP/1.1" 200 2415
+[contactor] INFO 2024-03-26 22:58:50,114 "GET /contacts/ HTTP/1.1" 200 2432
+[contactor] INFO 2024-03-26 22:59:11,762 "GET /contacts/ HTTP/1.1" 200 2433
+[contactor] INFO 2024-03-26 22:59:54,324 "GET /contacts/ HTTP/1.1" 200 1998
+[contactor] INFO 2024-03-26 23:00:18,668 "GET /contacts/ HTTP/1.1" 200 2005
+[contactor] INFO 2024-03-26 23:00:44,701 "GET /contacts/ HTTP/1.1" 200 2013
+[contactor] INFO 2024-03-26 23:00:44,717 "GET /static/css/contact.css HTTP/1.1" 304 0
+[contactor] INFO 2024-03-26 23:00:55,253 "GET /contacts/ HTTP/1.1" 200 2011
+[contactor] INFO 2024-03-26 23:01:32,189 "GET /contacts/ HTTP/1.1" 200 1613
+[contactor] INFO 2024-03-26 23:01:33,026 "GET /contacts/ HTTP/1.1" 200 1613

@@ -1,45 +1,89 @@
 from django.shortcuts import render, redirect
-from rest_framework.decorators import api_view
 from django.contrib.auth import authenticate, login, logout
-from django.urls import reverse
-from django.http import HttpResponseRedirect
 from django.contrib.auth.models import User
+from django.contrib.messages import error
+from .userValidators import ValidateUser
+import logging
+from .utils import loggedIn, handleDBConnectionError, isUserRegistered
 
 
-# @api_view(['GET'])
-def loginIndex(req):
-    return render(req, 'accounts/login.html')
+
+@loggedIn
+def loginUser(req):
+    if req.method == 'GET':
+        return render(req, 'accounts/login.html')
+    
+    return authenticateUser(req)
     
 
-
-# @api_view(['POST'])
+@handleDBConnectionError
 def authenticateUser(req):
     username = req.POST['username']
     password = req.POST['password']
+
+    if not isUserRegistered(username):
+        message = f'Username ({username}) not registered. Signup and try again'
+        logging.warning(message)
+        error(request=req, message=message)
+        return redirect('users:login') 
+
     user = authenticate(request=req, username=username, password=password)
-    if user is not None:
-        login(req, user)
-        return redirect('contacts:index')
-    else:
+
+    if user is None:
+        message = 'Invalid username or password'
+        logging.error(message)
+        error(request=req, message=message)
         return redirect('users:login')
+    
+    login(req, user)
+    return redirect('contacts:index')
 
 
-
-
-@api_view(['GET'])
-def register(req):
-    return render(req, 'accounts/register.html')
-
-
-
-@api_view(['POST'])
+@loggedIn
 def registerUser(req):
-    pass
-    # user = User.save()
-    # user.set_password(user.password)
-    # user.save()
+    if req.method  == 'GET':
+        return render(req, 'accounts/register.html')
+    
+    return createUser(req)
+
+
+
+@handleDBConnectionError
+def createUser(req):
+    username = req.POST['username']
+    email = req.POST['email']
+    password1 = req.POST['password1']
+
+    if isUserRegistered(username):
+        message = f'User ({username}) already exists'
+        logging.warning(message)
+        error(request=req, message=message)
+        return redirect('users:register')
+
+    validateUser = ValidateUser(req.POST)
+    messages = validateUser.errorMessages
+    
+    if messages:
+        for message in messages:
+            logging.error(message)
+            error(request=req, message=message)
+        return redirect('users:register')
+
+    user = User(username=username, email=email, password=password1)
+    user.save()
+    user.set_password(user.password)
+    user.save()
+    return redirect('users:login')
+    
+    
+        
+        
 
 
 def logoutUser(req):
     logout(req)
     return redirect('users:login')
+
+
+
+    

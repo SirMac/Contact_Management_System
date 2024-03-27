@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-yyb4^esqc!zv=#thm=crp1%e0e65y5=x)2t-2$-k-%)58c8e#m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -49,6 +49,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'contactApp.middleware.handleServerErrors.ExceptionMiddleware'
 ]
 
 ROOT_URLCONF = 'contactApp.urls'
@@ -123,3 +124,60 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'filters': {
+        'require_debug_false': {
+            '()': 'django.utils.log.RequireDebugFalse'
+        }
+    },
+    'formatters': {
+        'verbose': {
+            'format': '[contactor] %(levelname)s %(asctime)s %(message)s'
+        },
+    },
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+            'level': 'DEBUG'
+        },
+       'sysFile': {
+           'level': 'DEBUG',
+           'class': 'logging.FileHandler',
+           'filename': 'logs/system.log',
+           'formatter': 'verbose',
+           'filters': ['require_debug_false'],
+
+       },
+       'errorFile': {
+           'level': 'ERROR',
+           'class': 'logging.FileHandler',
+           'filename': 'logs/error.log',
+           'formatter': 'verbose',
+           'filters': ['require_debug_false'],
+
+       },
+       'warningFile': {
+           'level': 'WARNING',
+           'class': 'logging.FileHandler',
+           'filename': 'logs/error.log',
+           'formatter': 'verbose',
+           'filters': ['require_debug_false'],
+
+       },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console','sysFile','errorFile','warningFile'],
+            'propagate': False
+        },
+        
+    },
+    "root": {
+        "handlers": ["errorFile", 'warningFile']
+    },
+}

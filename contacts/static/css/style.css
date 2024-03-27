@@ -5,9 +5,11 @@
   list-style: none;
   box-sizing: border-box;
 }
+
 body{
   font-family: montserrat;
 }
+
 nav{
   background: #0082e6;
   height: 80px;
@@ -93,7 +95,7 @@ a.active,a:hover{
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   display: block;
 }

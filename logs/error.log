@@ -1,0 +1,90 @@
+[contactor] ERROR 2024-03-26 20:25:37,420 Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/venv/venvContactMng/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/django/Contact_Management_System/users/views.py", line 12, in inner_function
+    return func(req, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/django/Contact_Management_System/users/views.py", line 73, in registerUser
+    return createUser(req)
+           ^^^^^^^^^^^^^^^
+  File "/home/mac/Documents/Projects/python/django/Contact_Management_System/users/views.py", line 89, in createUser
+    validateUser.__var
+AttributeError: 'ValidateUser' object has no attribute '__var'
+[contactor] ERROR 2024-03-26 20:42:35,147 OperationalError: no such table: auth_user
+[contactor] ERROR 2024-03-26 20:43:23,406 OperationalError: no such table: auth_user
+[contactor] ERROR 2024-03-26 20:45:07,613 OperationalError: no such table: auth_user
+[contactor] WARNING 2024-03-26 20:52:39,308 Username (demo) not registered. Signup and try again
+[contactor] ERROR 2024-03-26 20:57:34,904 Passwords do not match
+[contactor] ERROR 2024-03-26 20:57:34,904 Passwords do not match
+[contactor] ERROR 2024-03-26 20:57:34,904 Email address invalid
+[contactor] ERROR 2024-03-26 20:57:34,904 Email address invalid
+[contactor] ERROR 2024-03-26 21:10:53,638 Page not found for GET /accounts/registercc/
+[contactor] ERROR 2024-03-26 21:10:53,638 Page not found for GET /accounts/registercc/
+[contactor] WARNING 2024-03-26 21:16:55,195 Username (demo) not registered. Signup and try again
+[contactor] ERROR 2024-03-26 21:17:02,089 Invalid username or password
+[contactor] ERROR 2024-03-26 21:17:02,089 Invalid username or password
+[contactor] ERROR 2024-03-26 21:17:13,701 Internal Server Error: /contacts/create[contactor] ERROR 2024-03-26 22:14:27,359 Page not found for GET /
+[contactor] ERROR 2024-03-26 22:14:27,359 Page not found for GET /
+[contactor] ERROR 2024-03-26 22:15:19,921 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:15:19,921 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:16:59,205 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:16:59,205 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:17:47,804 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:17:47,804 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:20:59,769 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:20:59,769 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:20:59,816 Page not found for GET /static/fonts/fontawesome-webfont.woff2
+[contactor] ERROR 2024-03-26 22:20:59,816 Page not found for GET /static/fonts/fontawesome-webfont.woff2
+[contactor] ERROR 2024-03-26 22:20:59,941 Page not found for GET /static/fonts/fontawesome-webfont.woff
+[contactor] ERROR 2024-03-26 22:20:59,941 Page not found for GET /static/fonts/fontawesome-webfont.woff
+[contactor] ERROR 2024-03-26 22:21:00,059 Page not found for GET /static/fonts/fontawesome-webfont.ttf
+[contactor] ERROR 2024-03-26 22:21:00,059 Page not found for GET /static/fonts/fontawesome-webfont.ttf
+[contactor] ERROR 2024-03-26 22:21:36,670 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:21:36,670 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:21:36,723 Page not found for GET /static/fonts/fontawesome-webfont.woff2
+[contactor] ERROR 2024-03-26 22:21:36,723 Page not found for GET /static/fonts/fontawesome-webfont.woff2
+[contactor] ERROR 2024-03-26 22:21:36,847 Page not found for GET /static/fonts/fontawesome-webfont.woff
+[contactor] ERROR 2024-03-26 22:21:36,847 Page not found for GET /static/fonts/fontawesome-webfont.woff
+[contactor] ERROR 2024-03-26 22:21:36,973 Page not found for GET /static/fonts/fontawesome-webfont.ttf
+[contactor] ERROR 2024-03-26 22:21:36,973 Page not found for GET /static/fonts/fontawesome-webfont.ttf
+[contactor] ERROR 2024-03-26 22:26:29,893 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:26:29,893 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:26:29,940 Page not found for GET /static/fonts/fontawesome-webfont.woff2
+[contactor] ERROR 2024-03-26 22:26:29,940 Page not found for GET /static/fonts/fontawesome-webfont.woff2
+[contactor] ERROR 2024-03-26 22:26:30,054 Page not found for GET /static/fonts/fontawesome-webfont.woff
+[contactor] ERROR 2024-03-26 22:26:30,054 Page not found for GET /static/fonts/fontawesome-webfont.woff
+[contactor] ERROR 2024-03-26 22:26:30,177 Page not found for GET /static/fonts/fontawesome-webfont.ttf
+[contactor] ERROR 2024-03-26 22:26:30,177 Page not found for GET /static/fonts/fontawesome-webfont.ttf
+[contactor] ERROR 2024-03-26 22:27:18,540 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:27:18,540 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:27:18,592 Page not found for GET /static/fonts/fontawesome-webfont.woff2
+[contactor] ERROR 2024-03-26 22:27:18,592 Page not found for GET /static/fonts/fontawesome-webfont.woff2
+[contactor] ERROR 2024-03-26 22:27:18,710 Page not found for GET /static/fonts/fontawesome-webfont.woff
+[contactor] ERROR 2024-03-26 22:27:18,710 Page not found for GET /static/fonts/fontawesome-webfont.woff
+[contactor] ERROR 2024-03-26 22:27:18,822 Page not found for GET /static/fonts/fontawesome-webfont.ttf
+[contactor] ERROR 2024-03-26 22:27:18,822 Page not found for GET /static/fonts/fontawesome-webfont.ttf
+[contactor] ERROR 2024-03-26 22:32:32,177 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:32:32,177 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:32:32,222 Page not found for GET /static/fonts/fontawesome-webfont.woff2
+[contactor] ERROR 2024-03-26 22:32:32,222 Page not found for GET /static/fonts/fontawesome-webfont.woff2
+[contactor] ERROR 2024-03-26 22:32:32,346 Page not found for GET /static/fonts/fontawesome-webfont.woff
+[contactor] ERROR 2024-03-26 22:32:32,346 Page not found for GET /static/fonts/fontawesome-webfont.woff
+[contactor] ERROR 2024-03-26 22:32:32,454 Page not found for GET /static/fonts/fontawesome-webfont.ttf
+[contactor] ERROR 2024-03-26 22:32:32,454 Page not found for GET /static/fonts/fontawesome-webfont.ttf
+[contactor] ERROR 2024-03-26 22:32:33,815 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:32:33,815 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:35:22,473 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:35:22,473 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:35:40,681 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:35:40,681 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:35:40,828 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:35:40,828 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:37:39,871 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:37:39,871 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:40:32,701 Page not found for GET /w3images/avatar_g2.jpg
+[contactor] ERROR 2024-03-26 22:40:32,701 Page not found for GET /w3images/avatar_g2.jpg

@@ -6,7 +6,7 @@ from django.contrib.auth.decorators import login_required
 @api_view(['GET'])
 @login_required
 def index(req):
-    return render(req, 'contacts/index.html')
+    return render(req, 'contacts/index2.html')
 
 
 @login_required

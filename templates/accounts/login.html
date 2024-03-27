@@ -13,10 +13,17 @@
   <div class="container">
     <div class="login form">
       <header>Login</header>
-      <form action="{% url 'users:authenticate' %}" method="post">
+      <form action="{% url 'users:login' %}" method="post">
         {% csrf_token %}
         <input type="text" required name="username" placeholder="Enter your username">
         <input type="password" required name="password" placeholder="Enter your password">
+        <div>
+          {% if messages %}
+            {% for message in messages %}
+                <p style="text-align: center; color: brown;"><strong>{{ message }}</strong></p>
+            {% endfor %}
+          {% endif %}
+        </div>
         <button type="submit" class="button">Login</button>
       </form>
       <div class="signup">

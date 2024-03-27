@@ -13,15 +13,24 @@
   <div class="container">
     <div class="registration form">
       <header>Signup</header>
-      <form action="#">
-        <input type="text" placeholder="Enter your email">
-        <input type="password" placeholder="Create a password">
-        <input type="password" placeholder="Confirm your password">
-        <input type="button" class="button" value="Signup">
+      <form action="{% url 'users:register' %}" method="post">
+        {% csrf_token %}
+        <input type="text" required name="username" placeholder="Enter your username">
+        <input type="text" required name="email" placeholder="Enter your email">
+        <input type="password" required name="password1" placeholder="Create a password">
+        <input type="password" required name="password2" placeholder="Confirm your password">
+        <div>
+          {% if messages %}
+            {% for message in messages %}
+                <p style="text-align: center; color: brown;"><strong>{{ message }}</strong></p>
+            {% endfor %}
+          {% endif %}
+        </div>
+        <button type="submit" class="button">Signup</button>
       </form>
       <div class="signup">
         <span class="signup">Already have an account?
-         <label for="check">Login</label>
+         <a href="{% url 'users:login' %}" for="signup">Login</a>
         </span>
       </div>
     </div>
