@@ -2,6 +2,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
   <link rel="stylesheet" href="{% static 'css/login.css' %}">
   <title>Login</title>
 </head>
+
 <body>
   <div class="container">
     <div class="login form">
@@ -19,19 +21,20 @@
         <input type="password" required name="password" placeholder="Enter your password">
         <div>
           {% if messages %}
-            {% for message in messages %}
-                <p style="text-align: center; color: brown;"><strong>{{ message }}</strong></p>
-            {% endfor %}
+          {% for message in messages %}
+          <p style="text-align: center; color: brown;"><strong>{{ message }}</strong></p>
+          {% endfor %}
           {% endif %}
         </div>
         <button type="submit" class="button">Login</button>
       </form>
       <div class="signup">
         <span class="signup">Don't have an account?
-         <a href="{% url 'users:register' %}" for="signup">Signup</a>
+          <a href="{% url 'users:register' %}" for="signup">Signup</a>
         </span>
       </div>
     </div>
   </div>
 </body>
+
 </html>

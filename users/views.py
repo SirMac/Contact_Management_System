@@ -22,15 +22,15 @@ def authenticateUser(req):
     password = req.POST['password']
 
     if not isUserRegistered(username):
-        message = f'Username ({username}) not registered. Signup and try again'
-        logging.warning(message)
+        message = f'Username ({username}) incorrect'
+        logging.error(message)
         error(request=req, message=message)
         return redirect('users:login') 
 
     user = authenticate(request=req, username=username, password=password)
 
     if user is None:
-        message = 'Invalid username or password'
+        message = 'Invalid password'
         logging.error(message)
         error(request=req, message=message)
         return redirect('users:login')

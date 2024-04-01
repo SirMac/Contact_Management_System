@@ -7,6 +7,7 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('create', views.createContact, name='createContact'),
     path('read', views.readContact, name='readContact'),
-    path('update', views.updateContact, name='updateContact'),
-    path('delete', views.deleteContact, name='deleteContact'),
+    path('update/<int:id>/', views.updateContact, name='updateContact'),
+    path('delete/<int:id>/', views.deleteContact, name='deleteContact'),
+    path('detail/<int:id>/', views.viewDetail, name='detailContact'),
 ]
