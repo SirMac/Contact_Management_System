@@ -22,7 +22,7 @@ def authenticateUser(req):
     password = req.POST['password']
 
     if not isUserRegistered(username):
-        message = f'Username ({username}) incorrect'
+        message = f'Username ({username}) not found'
         logging.error(message)
         error(request=req, message=message)
         return redirect('users:login') 

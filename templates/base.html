@@ -9,24 +9,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{% static 'css/contact.css' %}">
   <link rel="stylesheet" href="{% static 'css/style.css' %}">
-  <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
 </head>
 
 <body class="light-grey content" style="max-width:1600px">
 
   <div class="main">
     <header id="portfolio">
-      <a class="circle right margin hover-opacity white logout-user button" 
+      <a class="circle right margin hover-opacity bg-light logout-user button" 
         href="#">
         Logout
       </a>
       <div class="container">
         <h3><b>Contact Management System</b></h3>
         <div class="section bottombar padding-16">
-          <a class="button light-grey margin-right" href="{% url 'contacts:index' %}">
+          <a class="button bg-light margin-right" href="{% url 'contacts:index' %}">
             Home
           </a>
-          <a class="button light-grey margin-left" href="{% url 'contacts:createContact' %}">
+          <a class="button bg-light margin-left" href="{% url 'contacts:createContact' %}">
             Add Contact
           </a>
         </div>
