@@ -125,7 +125,7 @@
   background-color: #dddddd;
 }
 
-.table a {
+ a {
   text-decoration: none;
 }
 
@@ -209,13 +209,13 @@
   .rc-sidenav a {font-size: 18px;}
 }
 
-.rc-main .success {
+.success {
   color:#006653;
   font-weight: bold;
 }
 
 
-.rc-main .error {
+ .error {
   color: brown;
 }
 

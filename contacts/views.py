@@ -94,7 +94,7 @@ def deleteContact(req, id):
         error(req, message='Contact delete failed. Try again')
     else:
         success(req, message='Contact deleted successfully')
-        # contact.delete()
+        contact.delete()
     return redirect(req.META.get('HTTP_REFERER'))
 
 

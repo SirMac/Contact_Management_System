@@ -16,18 +16,18 @@
 
   <div class="main">
     <header id="portfolio">
-      <a class="circle right margin hide-large hover-opacity logout-user" 
+      <a class="circle right margin hover-opacity white logout-user button" 
         href="#">
-        <i class="fa fa-sign-out margin-right"></i>Logout
+        Logout
       </a>
       <div class="container">
         <h3><b>Contact Management System</b></h3>
         <div class="section bottombar padding-16">
           <a class="button light-grey margin-right" href="{% url 'contacts:index' %}">
-            <i class="fa fa-home margin-right"></i>Home
+            Home
           </a>
           <a class="button light-grey margin-left" href="{% url 'contacts:createContact' %}">
-            <i class="fa fa-plus margin-right"></i>Add Contact
+            Add Contact
           </a>
         </div>
       </div>
@@ -53,7 +53,7 @@
     let logoutUser = document.getElementsByClassName('logout-user');
     let deleteModal = document.getElementById('delete-modal');
     let logoutModal = document.getElementById('logout-modal');
-    let confirmButton = document.getElementById('confirm-button');
+    let confirmButton = document.getElementsByClassName('confirm-button');
     let closeModal = document.getElementsByClassName("close-modal");
     let deleteUrl = "{% url 'contacts:deleteContact' 1 %}"
     let logoutUrl = "{% url 'users:logout' %}"
@@ -73,7 +73,9 @@
         button.onclick = function(ele){
           modal.style.display = 'block';
           console.log(modal.childnode)
-          confirmButton && confirmButton.setAttribute('href', url)
+          for (const confirmbtn of confirmButton) {
+            confirmButton && confirmbtn.setAttribute('href', url)
+          }
         }
       }
     }

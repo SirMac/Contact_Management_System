@@ -4,16 +4,8 @@
 {% block content %}
 
 <div class="container_main_">
+  {% include "contacts/message.html" %}
   {% include "contacts/readContact.html" with contacts=contacts %}
-  {#% if contacts %#}
-    {#% include "contacts/viewContact.html" with contacts=contacts %#}
-  {#% else %#}
-    <!-- <p style="text-align: center;">No contacts available. To create new contact, click on Add Contact </p> -->
-  {#% endif %#}
 </div>
-
-{% if deleteContact %}
-  {% include "contacts/modal.html" %}
-{% endif %}
 
 {% endblock %}

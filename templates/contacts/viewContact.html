@@ -1,5 +1,5 @@
 
-{% include "contacts/message.html" %}
+{#% include "contacts/message.html" %#}
 
 <table class="table">
     <thead>
@@ -20,14 +20,12 @@
         <td class="center"><a class="button bg-cyan" 
             id="detailContact{{contact.id}}"
             href="{% url 'contacts:detailContact' contact.id %}">
-            <i class="fa fa-info-circle margin-right"></i>
             detail
           </a></td>
 
         <td class="center"><a class="button bg-cyan" 
             id="updateContact{{contact.id}}"
             href="{% url 'contacts:updateContact' contact.id %}">
-            <i class="fa fa-pencil-square-o margin-right"></i>
             update
           </a></td>
 
@@ -36,7 +34,6 @@
               id="deleteContact{{contact.id}}"
               href="#"
             >
-            <i class="fa fa-trash margin-right"></i>
             delete
           </a></td>
 
@@ -45,20 +42,4 @@
     </tbody>
 </table>
 
-<!-- 
-
-<script>
-  let deleteButtons = document.getElementsByClassName('deleteContact');
-  let deleteModal = document.getElementById('contact-modal');
-  let confirmDelete = document.getElementById('confirm-delete');
-  let confirmDeleteMain = document.getElementById('confirm-delete-main');
-
-  for(let button of deleteButtons){
-    button.onclick = function(ele){
-      deleteModal.style.display = 'block';
-      confirmDeleteMain.style.display = 'block';
-      confirmDelete && confirmDelete.setAttribute('href', "{% url 'contacts:deleteContact' 1 %}")
-    }
-  }
-</script> -->
 
