@@ -20,12 +20,20 @@ class ValidateContact:
     self.city = userData['city']
     self.province = userData['province']
     self.postalCode = userData['postalCode']
+    self.validateEmptyFields(userData)
     self.validateEmail()
     self.validatePhoneNumber()
     self.validateWebsite()
     self.validateNumber()
     self.validateProvince()
     self.validatePostalCode()
+
+
+
+  def validateEmptyFields(self, userData):
+    for fieldName in userData:
+      if len(userData[fieldName]) == 0:
+        self.errorMessages.append(f' The field "{fieldName}" cannot be empty')
       
 
   def checkDuplicate(self):
