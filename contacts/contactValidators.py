@@ -21,6 +21,7 @@ class ValidateContact:
     self.province = userData['province']
     self.postalCode = userData['postalCode']
     self.validateEmptyFields(userData)
+    self.validateTextFields(userData)
     self.validateEmail()
     self.validatePhoneNumber()
     self.validateWebsite()
@@ -28,12 +29,6 @@ class ValidateContact:
     self.validateProvince()
     self.validatePostalCode()
 
-
-
-  def validateEmptyFields(self, userData):
-    for fieldName in userData:
-      if len(userData[fieldName]) == 0:
-        self.errorMessages.append(f' The field "{fieldName}" cannot be empty')
       
 
   def checkDuplicate(self):
@@ -44,6 +39,20 @@ class ValidateContact:
     else:
       return True
   
+
+  def validateEmptyFields(self, userData):
+    for fieldName in userData:
+      if len(userData[fieldName]) == 0:
+        self.errorMessages.append(f'The field "{fieldName}" cannot be empty')
+
+
+  def validateTextFields(self, userData):
+    textFields = ['firstname','lastname','province']
+    for textField in textFields:
+      if not userData[textField].isalpha():
+        logging.error(f'The field "{textField}" must be letters only')
+        self.errorMessages.append(f'The field "{textField}" must be letters only')
+
 
   def validatePhoneNumber(self):
     message = "Phone number must be in the format: '+1 (111) 111-1111'"
