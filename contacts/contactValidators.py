@@ -22,10 +22,11 @@ class ValidateContact:
     self.postalCode = userData['postalCode']
     self.validateEmptyFields(userData)
     self.validateTextFields(userData)
+    self.validateNumberFields(userData)
     self.validateEmail()
     self.validatePhoneNumber()
     self.validateWebsite()
-    self.validateNumber()
+    self.validateStreetCode()
     self.validateProvince()
     self.validatePostalCode()
 
@@ -43,15 +44,24 @@ class ValidateContact:
   def validateEmptyFields(self, userData):
     for fieldName in userData:
       if len(userData[fieldName]) == 0:
+        logging.error(f'The field "{fieldName}" cannot be empty')
         self.errorMessages.append(f'The field "{fieldName}" cannot be empty')
 
 
   def validateTextFields(self, userData):
-    textFields = ['firstname','lastname','province']
+    textFields = ['firstname','lastname']
     for textField in textFields:
       if not userData[textField].isalpha():
         logging.error(f'The field "{textField}" must be letters only')
         self.errorMessages.append(f'The field "{textField}" must be letters only')
+
+
+  def validateNumberFields(self, userData):
+    numberFields = ['civicNumber', 'unitNumber']
+    for numberField in numberFields:
+      if not userData[numberField].isnumeric():
+        logging.error(f'The field "{numberField}" must be numeic')
+        self.errorMessages.append(f'The field "{numberField}" must be numeic')
 
 
   def validatePhoneNumber(self):
@@ -78,22 +88,21 @@ class ValidateContact:
       validate_email(self.email) 
     except ValidationError as e:
       logging.error(str(e))
-      self.errorMessages.append(message)
-
-
-  def validateNumber(self):
-    if not self.civicNumber.isnumeric():
-      logging.error('Civic number must be numeic')
-      self.errorMessages.append('Civic number must be numeic')
-
-    if not self.unitNumber.isnumeric():
-      logging.error('Unit number must be numeic')
-      self.errorMessages.append('Unit number must be numeic')
+      self.errorMessages.append(message) 
 
     
+  def validateStreetCode(self):
+    message = 'Street code must be alphanumeric only'
+    streetCodeRegex = r'^[a-zA-Z0-9]+$'
+    matchedStreetCode = re.search(streetCodeRegex, self.street)
+    if matchedStreetCode == None:
+      logging.error(message)
+      self.errorMessages.append(message)  
+
+
   def validateProvince(self):
     message = 'Province must be two letters'
-    provinceRegex = r'^[a-zA-Z]{2}'
+    provinceRegex = r'^[a-zA-Z]{2}$'
     matchedProvince = re.search(provinceRegex, self.province)
     if matchedProvince == None:
       logging.error(message)
@@ -102,7 +111,7 @@ class ValidateContact:
 
   def validatePostalCode(self):
     message = 'Postal code must be in the format 1A1 or A1A'
-    postalCodePatterns = [r'^[a-zA-Z][0-9][a-zA-Z]', r'^[0-9][a-zA-Z][0-9]']
+    postalCodePatterns = [r'^[a-zA-Z][0-9][a-zA-Z]$', r'^[0-9][a-zA-Z][0-9]$']
     wrongPatternCount = 0
     for pattern in postalCodePatterns:
       matchedPostalCode = re.search(pattern, self.postalCode)
