@@ -102,9 +102,13 @@ class ValidateContact:
 
   def validatePostalCode(self):
     message = 'Postal code must be in the format 1A1 or A1A'
-    postalCode_regex = r'^[a-zA-Z0-9]{3}'
-    matchedPostalCode = re.search(postalCode_regex, self.postalCode)
-    if matchedPostalCode == None:
+    postalCodePatterns = [r'^[a-zA-Z][0-9][a-zA-Z]', r'^[0-9][a-zA-Z][0-9]']
+    wrongPatternCount = 0
+    for pattern in postalCodePatterns:
+      matchedPostalCode = re.search(pattern, self.postalCode)
+      if matchedPostalCode == None:
+        wrongPatternCount += 1
+    if wrongPatternCount == len(postalCodePatterns):
       logging.error(message)
       self.errorMessages.append(message)
     
