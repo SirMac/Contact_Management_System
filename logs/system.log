@@ -64,3 +64,15 @@
 [contactor] INFO 2024-04-18 16:57:41,308 "GET /static/css/style.css HTTP/1.1" 200 4214
 [contactor] INFO 2024-04-18 16:57:41,308 "GET /static/css/contact.css HTTP/1.1" 200 27696
 [contactor] INFO 2024-04-18 16:57:44,677 "GET /contacts/?firstname=&lastname=&email=&readall=yes HTTP/1.1" 200 6074
+[contactor] INFO 2024-04-18 18:07:07,689 Watching for file changes with StatReloader
+[contactor] INFO 2024-04-18 18:07:13,780 "GET / HTTP/1.1" 302 0
+[contactor] INFO 2024-04-18 18:07:13,791 "GET /accounts/login/?next=/ HTTP/1.1" 200 1067
+[contactor] INFO 2024-04-18 18:07:19,849 "POST /accounts/login/ HTTP/1.1" 302 0
+[contactor] INFO 2024-04-18 18:07:19,872 "GET /contacts/ HTTP/1.1" 200 4646
+[contactor] INFO 2024-04-18 18:07:19,959 "GET /static/css/contact.css HTTP/1.1" 200 27696
+[contactor] INFO 2024-04-18 18:07:19,960 "GET /static/css/style.css HTTP/1.1" 200 4214
+[contactor] INFO 2024-04-18 18:07:23,221 "GET /contacts/?firstname=&lastname=&email=&readall=yes HTTP/1.1" 200 6074
+[contactor] INFO 2024-04-18 18:07:24,620 "GET /contacts/update/3/ HTTP/1.1" 200 4723
+[contactor] INFO 2024-04-18 18:07:26,043 "POST /contacts/update/3/ HTTP/1.1" 302 0
+[contactor] INFO 2024-04-18 18:07:26,057 "GET /contacts/?firstname=&lastname=&email=&readall=yes HTTP/1.1" 200 6224
+[contactor] INFO 2024-04-18 18:07:30,274 "GET /contacts/ HTTP/1.1" 200 4646
