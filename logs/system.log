@@ -35,3 +35,21 @@
 [contactor] INFO 2024-04-18 08:37:50,216 "GET /accounts/login/ HTTP/1.1" 200 1193
 [contactor] INFO 2024-04-18 08:38:00,954 "POST /accounts/login/ HTTP/1.1" 302 0
 [contactor] INFO 2024-04-18 08:38:00,967 "GET /contacts/ HTTP/1.1" 200 4646
+[contactor] INFO 2024-04-18 09:51:53,022 Watching for file changes with StatReloader
+[contactor] INFO 2024-04-18 09:52:25,798 Watching for file changes with StatReloader
+[contactor] INFO 2024-04-18 09:52:32,703 "GET /contacts/ HTTP/1.1" 302 0
+[contactor] INFO 2024-04-18 09:52:32,726 "GET /accounts/login/?next=/contacts/ HTTP/1.1" 200 1067
+[contactor] INFO 2024-04-18 09:52:39,186 "POST /accounts/login/ HTTP/1.1" 302 0
+[contactor] INFO 2024-04-18 09:52:39,192 "GET /accounts/login/ HTTP/1.1" 200 1193
+[contactor] INFO 2024-04-18 09:52:45,522 "POST /accounts/login/ HTTP/1.1" 302 0
+[contactor] INFO 2024-04-18 09:52:45,546 "GET /contacts/ HTTP/1.1" 200 4646
+[contactor] INFO 2024-04-18 09:52:45,618 "GET /static/css/contact.css HTTP/1.1" 200 27696
+[contactor] INFO 2024-04-18 09:52:45,619 "GET /static/css/style.css HTTP/1.1" 200 4214
+[contactor] INFO 2024-04-18 09:52:49,907 "GET /contacts/?firstname=&lastname=&email=&readall=yes HTTP/1.1" 200 6074
+[contactor] INFO 2024-04-18 09:53:09,456 /home/mac/Documents/Projects/python/django/Contact_Management_System/contacts/views.py changed, reloading.
+[contactor] INFO 2024-04-18 09:53:09,716 Watching for file changes with StatReloader
+[contactor] INFO 2024-04-18 09:53:12,928 "GET /contacts/?firstname=&lastname=&email=&readall=yes HTTP/1.1" 200 4781
+[contactor] INFO 2024-04-18 09:53:17,180 "GET /contacts/?firstname=&lastname=&email=&readall=yes HTTP/1.1" 200 4781
+[contactor] INFO 2024-04-18 09:53:25,033 /home/mac/Documents/Projects/python/django/Contact_Management_System/contacts/views.py changed, reloading.
+[contactor] INFO 2024-04-18 09:53:25,314 Watching for file changes with StatReloader
+[contactor] INFO 2024-04-18 09:53:27,738 "GET /contacts/?firstname=&lastname=&email=&readall=yes HTTP/1.1" 200 6074

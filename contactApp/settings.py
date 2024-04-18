@@ -83,6 +83,7 @@ DATABASES = {
     }
 }
 
+
 databaseUrl = os.environ.get('DATABASE_URL')
 if os.environ.get('APP_ENV') == 'production':
     DATABASES['default'] = dj_database_url.parse(databaseUrl)
