@@ -22,3 +22,7 @@
 [contactor] ERROR 2024-04-18 09:52:39,185 Invalid password
 [contactor] WARNING 2024-04-18 09:53:12,916 No record found
 [contactor] WARNING 2024-04-18 09:53:17,175 No record found
+[contactor] ERROR 2024-04-18 16:57:28,324 Page not found for GET /
+[contactor] ERROR 2024-04-18 16:57:28,324 Page not found for GET /
+[contactor] ERROR 2024-04-18 16:57:35,615 Username (123) not found
+[contactor] ERROR 2024-04-18 16:57:35,615 Username (123) not found
