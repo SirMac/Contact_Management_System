@@ -18,7 +18,7 @@ SECRET_KEY = 'django-insecure-yyb4^esqc!zv=#thm=crp1%e0e65y5=x)2t-2$-k-%)58c8e#m
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', '.vercel.app']
 
 
 SESSION_EXPIRE_SECONDS = 1800
@@ -87,6 +87,17 @@ DATABASES = {
 databaseUrl = os.environ.get('DATABASE_URL')
 if os.environ.get('APP_ENV') == 'production':
     DATABASES['default'] = dj_database_url.parse(databaseUrl)
+
+
+if os.environ.get('HOST_SITE') == 'vercel':
+    DATABASES['default'] = {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+        'USER':'postgres',
+        'PASSWORD':'HRuRLiiiyzrTDefFFOTeCvsACaEbiFhQ',
+        'HOST': 'roundhouse.proxy.rlwy.net',
+        'PORT': '38455'
+    }
 
 
 # Password validation
