@@ -4,6 +4,7 @@ import logging
 
 
 class ExceptionMiddleware:
+    blackListPaths = ['/favicon.ico']
     def __init__(self, get_response):
         self.get_response = get_response
 
@@ -16,7 +17,7 @@ class ExceptionMiddleware:
             error(request=request, message='Somthing went wrong. Try again')
             return redirect(request.path)
         
-        elif statusCode == 404:
+        elif statusCode == 404 and request.path not in self.blackListPaths:
             logging.error(f"Page not found for {request.method} {request.path}")
             if not request.user.is_authenticated:
                 return redirect('users:login')

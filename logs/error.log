@@ -1,112 +1,20 @@
-[contactor] ERROR 2024-04-16 19:19:56,770 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:19:56,770 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:20:09,570 ['Enter a valid email address.']
-[contactor] ERROR 2024-04-16 19:20:09,570 ['Enter a valid email address.']
-[contactor] ERROR 2024-04-16 19:20:09,572 Email address invalid
-[contactor] ERROR 2024-04-16 19:20:09,572 Email address invalid
-[contactor] ERROR 2024-04-16 19:20:09,698 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:20:09,698 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:20:16,844 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:20:16,844 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:20:20,536 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:20:20,536 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:20:26,209 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:20:26,209 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:20:28,257 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:20:28,257 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:20:36,705 ['Enter a valid email address.']
-[contactor] ERROR 2024-04-16 19:20:36,705 ['Enter a valid email address.']
-[contactor] ERROR 2024-04-16 19:20:36,706 Email address invalid
-[contactor] ERROR 2024-04-16 19:20:36,706 Email address invalid
-[contactor] ERROR 2024-04-16 19:20:36,825 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:20:36,825 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:22:31,334 ['Enter a valid email address.']
-[contactor] ERROR 2024-04-16 19:22:31,334 ['Enter a valid email address.']
-[contactor] ERROR 2024-04-16 19:22:31,335 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:22:31,335 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:22:31,335 Email address invalid
-[contactor] ERROR 2024-04-16 19:22:31,335 Email address invalid
-[contactor] ERROR 2024-04-16 19:22:31,335 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:22:31,335 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:22:31,472 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:22:31,472 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:22:37,863 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:22:37,863 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:22:37,863 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:22:37,863 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:22:37,976 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:22:37,976 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:22:51,118 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:22:51,118 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:22:51,118 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:22:51,118 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:22:51,224 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:22:51,224 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:23:11,978 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:23:11,978 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:23:15,116 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:23:15,116 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:23:28,961 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:23:28,961 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:23:28,962 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:23:28,962 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:23:29,093 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:23:29,093 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:24:42,387 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:24:42,387 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:24:42,388 Province must be two letters
-[contactor] ERROR 2024-04-16 19:24:42,388 Province must be two letters
-[contactor] ERROR 2024-04-16 19:24:42,388 Postal code must be in the format 1A1 or A1A
-[contactor] ERROR 2024-04-16 19:24:42,388 Postal code must be in the format 1A1 or A1A
-[contactor] ERROR 2024-04-16 19:24:42,388 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:24:42,388 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:24:42,388 Province must be two letters
-[contactor] ERROR 2024-04-16 19:24:42,388 Province must be two letters
-[contactor] ERROR 2024-04-16 19:24:42,388 Postal code must be in the format 1A1 or A1A
-[contactor] ERROR 2024-04-16 19:24:42,388 Postal code must be in the format 1A1 or A1A
-[contactor] ERROR 2024-04-16 19:24:42,507 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:24:42,507 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:25:14,948 Province must be two letters
-[contactor] ERROR 2024-04-16 19:25:14,948 Province must be two letters
-[contactor] ERROR 2024-04-16 19:25:14,948 Province must be two letters
-[contactor] ERROR 2024-04-16 19:25:14,948 Province must be two letters
-[contactor] ERROR 2024-04-16 19:25:15,050 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:25:15,050 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:25:20,447 Postal code must be in the format 1A1 or A1A
-[contactor] ERROR 2024-04-16 19:25:20,447 Postal code must be in the format 1A1 or A1A
-[contactor] ERROR 2024-04-16 19:25:20,447 Postal code must be in the format 1A1 or A1A
-[contactor] ERROR 2024-04-16 19:25:20,447 Postal code must be in the format 1A1 or A1A
-[contactor] ERROR 2024-04-16 19:25:20,544 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:25:20,544 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:25:26,213 Phone number must be in the format: '+1 (111) 111-1111'
-[contactor] ERROR 2024-04-16 19:25:26,213 Phone number must be in the format: '+1 (111) 111-1111'
-[contactor] ERROR 2024-04-16 19:25:26,213 Phone number must be in the format: '+1 (111) 111-1111'
-[contactor] ERROR 2024-04-16 19:25:26,213 Phone number must be in the format: '+1 (111) 111-1111'
-[contactor] ERROR 2024-04-16 19:25:26,312 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:25:26,312 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:25:36,397 The field "lastname" must be letters only
-[contactor] ERROR 2024-04-16 19:25:36,397 The field "lastname" must be letters only
-[contactor] ERROR 2024-04-16 19:25:36,397 The field "lastname" must be letters only
-[contactor] ERROR 2024-04-16 19:25:36,397 The field "lastname" must be letters only
-[contactor] ERROR 2024-04-16 19:25:36,515 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:25:36,515 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:25:40,423 The field "firstname" must be letters only
-[contactor] ERROR 2024-04-16 19:25:40,423 The field "firstname" must be letters only
-[contactor] ERROR 2024-04-16 19:25:40,424 The field "firstname" must be letters only
-[contactor] ERROR 2024-04-16 19:25:40,424 The field "firstname" must be letters only
-[contactor] ERROR 2024-04-16 19:25:40,525 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:25:40,525 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:25:44,140 The field "firstname" must be letters only
-[contactor] ERROR 2024-04-16 19:25:44,140 The field "firstname" must be letters only
-[contactor] ERROR 2024-04-16 19:25:44,140 The field "firstname" must be letters only
-[contactor] ERROR 2024-04-16 19:25:44,140 The field "firstname" must be letters only
-[contactor] ERROR 2024-04-16 19:25:44,268 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:25:44,268 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:25:51,648 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:25:51,648 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:25:51,648 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:25:51,648 Street code must be alphanumeric only
-[contactor] ERROR 2024-04-16 19:25:51,756 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:25:51,756 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:25:57,452 Page not found for GET /favicon.ico
-[contactor] ERROR 2024-04-16 19:25:57,452 Page not found for GET /favicon.ico
+[contactor] ERROR 2024-04-18 08:32:54,375 Page not found for GET /
+[contactor] ERROR 2024-04-18 08:32:54,375 Page not found for GET /
+[contactor] WARNING 2024-04-18 08:32:54,520 Not Found: /favicon.ico
+[contactor] WARNING 2024-04-18 08:32:54,520 "GET /favicon.ico HTTP/1.1" 404 179
+[contactor] ERROR 2024-04-18 08:33:01,353 Invalid password
+[contactor] ERROR 2024-04-18 08:33:01,353 Invalid password
+[contactor] ERROR 2024-04-18 08:33:54,823 ['Enter a valid email address.']
+[contactor] ERROR 2024-04-18 08:33:54,823 ['Enter a valid email address.']
+[contactor] ERROR 2024-04-18 08:33:54,823 Email address invalid
+[contactor] ERROR 2024-04-18 08:33:54,823 Email address invalid
+[contactor] ERROR 2024-04-18 08:34:45,760 Invalid password
+[contactor] ERROR 2024-04-18 08:34:45,760 Invalid password
+[contactor] WARNING 2024-04-18 08:34:56,389 Not Found: /
+[contactor] WARNING 2024-04-18 08:34:56,390 "GET / HTTP/1.1" 404 179
+[contactor] WARNING 2024-04-18 08:35:21,766 Not Found: /
+[contactor] WARNING 2024-04-18 08:35:21,766 "GET / HTTP/1.1" 404 179
+[contactor] ERROR 2024-04-18 08:36:17,835 Page not found for GET /
+[contactor] ERROR 2024-04-18 08:36:17,835 Page not found for GET /
+[contactor] ERROR 2024-04-18 08:37:50,209 Invalid password
+[contactor] ERROR 2024-04-18 08:37:50,209 Invalid password
