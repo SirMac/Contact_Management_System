@@ -2,8 +2,6 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.contrib.messages import error, success
 from django.db.models import Q
-from django.urls import reverse
-from .contactValidators import ValidateContact
 from .utils import addNewContact, doUpdateContact, getAllContacts
 from .models import Contact
 import logging
@@ -29,11 +27,7 @@ def createContact(req):
 def readContact(req):
     readAllContacts = req.GET.get('readall')
 
-    if readAllContacts is None:
-        return render(req, 'contacts/index.html')
-    
-
-    if readAllContacts.lower() == 'yes':
+    if readAllContacts is None or readAllContacts.lower() == 'yes':
         contacts = getAllContacts()
         if contacts is None:
             logging.error('No contact found.')
@@ -110,4 +104,3 @@ def viewDetail(req, id):
 
 
 
-# ----------- Utils ----------------

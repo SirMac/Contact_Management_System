@@ -1,6 +1,5 @@
 from django.db import models
 from django.utils import timezone
-from datetime import datetime
 
 
 
@@ -17,7 +16,7 @@ class Contact(models.Model):
     city = models.CharField(max_length=200)
     province = models.CharField(max_length=2)
     postalCode = models.CharField(max_length=3)
-    createdAt = models.DateTimeField(default=datetime.now())
+    createdAt = models.DateTimeField(default=timezone.now)
 
     def __str__(self):
         return self.firstName + ' ' + self.lastName

@@ -55,8 +55,8 @@
     let logoutModal = document.getElementById('logout-modal');
     let confirmButton = document.getElementsByClassName('confirm-button');
     let closeModal = document.getElementsByClassName("close-modal");
-    let deleteUrl = "{% url 'contacts:deleteContact' 1 %}"
-    let logoutUrl = "{% url 'users:logout' %}"
+    let deleteUrl = "/contacts/delete/" 
+    let logoutUrl = "/accounts/logout" 
     
     for(let element of closeModal){
         element.onclick = function () {
@@ -72,9 +72,14 @@
       for(let button of buttons){
         button.onclick = function(ele){
           modal.style.display = 'block';
-          console.log(modal.childnode)
+          let paramId = button.getAttribute('contactID')
+          let contactName = button.getAttribute('contactName')
+          if(contactName){
+            document.getElementById('delete-modal-header').innerHTML = `Delete contact of '${contactName}'`
+          }
+          if(!paramId) paramId = ''
           for (const confirmbtn of confirmButton) {
-            confirmButton && confirmbtn.setAttribute('href', url)
+            confirmButton && confirmbtn.setAttribute('href', `${url}${paramId}/`)
           }
         }
       }

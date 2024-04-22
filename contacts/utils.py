@@ -53,6 +53,7 @@ def addNewContact(req):
         postalCode = postalCode.upper()
     )
     contact.save()
+    success(request=req, message=f'Contact for "{firstName} {lastName}" created successfully')
     return redirect('contacts:index')
 
 
@@ -102,8 +103,8 @@ def doUpdateContact(req, id):
         contact.civicNumber = civicNumber
         contact.street = street
         contact.city = city
-        contact.province = province
-        contact.postalCode = postalCode
+        contact.province = province.upper()
+        contact.postalCode = postalCode.upper()
         contact.save()
 
     del req.session['urlref']
