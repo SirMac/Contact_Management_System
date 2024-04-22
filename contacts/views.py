@@ -61,7 +61,7 @@ def readContact(req):
     if len(contacts) == 0:
         logging.warning('No record found')
         error(req, message='No record found')
-        return redirect('contacts:index')
+        return render(req, 'contacts/index.html', context={'contacts':contacts})
 
     context = {'contacts': contacts}
     return render(req, 'contacts/index.html', context=context)
