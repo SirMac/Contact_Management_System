@@ -35,3 +35,5 @@
 [contactor] ERROR 2024-04-23 14:02:57,127 Page not found for GET /apple-touch-icon.png
 [contactor] WARNING 2024-04-23 14:02:57,128 Not Found: /favicon.ico
 [contactor] WARNING 2024-04-23 14:02:57,129 "GET /favicon.ico HTTP/1.1" 404 179
+[contactor] ERROR 2024-04-23 15:28:19,046 Page not found for GET /
+[contactor] ERROR 2024-04-23 15:28:19,046 Page not found for GET /

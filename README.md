@@ -10,7 +10,7 @@ Kehinde Oloba
 ---- Installation ----
 1. Install packages: 
 
-    python pip install -r requirements.txt
+    pip install -r requirements.txt
 
 2. Set up database and tables:
 

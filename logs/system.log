@@ -123,3 +123,11 @@
 [contactor] INFO 2024-04-23 14:02:57,128 "GET /accounts/login/ HTTP/1.1" 200 1067
 [contactor] WARNING 2024-04-23 14:02:57,128 Not Found: /favicon.ico
 [contactor] WARNING 2024-04-23 14:02:57,129 "GET /favicon.ico HTTP/1.1" 404 179
+[contactor] INFO 2024-04-23 15:28:01,081 Watching for file changes with StatReloader
+[contactor] INFO 2024-04-23 15:28:19,050 "GET / HTTP/1.1" 302 0
+[contactor] INFO 2024-04-23 15:28:19,064 "GET /accounts/login/ HTTP/1.1" 200 1067
+[contactor] INFO 2024-04-23 15:28:19,140 "GET /static/css/login.css HTTP/1.1" 200 1682
+[contactor] INFO 2024-04-23 15:28:23,651 "POST /accounts/login/ HTTP/1.1" 302 0
+[contactor] INFO 2024-04-23 15:28:23,667 "GET /contacts/ HTTP/1.1" 200 7216
+[contactor] INFO 2024-04-23 15:28:23,675 "GET /static/css/style.css HTTP/1.1" 200 4214
+[contactor] INFO 2024-04-23 15:28:23,676 "GET /static/css/contact.css HTTP/1.1" 200 27696
