@@ -3,3 +3,35 @@
 [contactor] WARNING 2024-04-22 13:51:39,011 No record found
 [contactor] WARNING 2024-04-22 13:51:48,356 No record found
 [contactor] WARNING 2024-04-22 13:51:59,344 No record found
+[contactor] ERROR 2024-04-23 13:41:03,029 Page not found for GET /
+[contactor] ERROR 2024-04-23 13:41:03,029 Page not found for GET /
+[contactor] WARNING 2024-04-23 13:41:03,148 Not Found: /favicon.ico
+[contactor] WARNING 2024-04-23 13:41:03,148 "GET /favicon.ico HTTP/1.1" 404 179
+[contactor] ERROR 2024-04-23 13:41:07,844 Invalid password
+[contactor] ERROR 2024-04-23 13:41:07,844 Invalid password
+[contactor] WARNING 2024-04-23 13:41:40,436 No record found
+[contactor] WARNING 2024-04-23 13:41:50,476 No record found
+[contactor] ERROR 2024-04-23 14:02:57,086 Page not found for GET /apple-touch-icon-precomposed.png
+[contactor] ERROR 2024-04-23 14:02:57,086 Page not found for GET /apple-touch-icon-precomposed.png
+[contactor] ERROR 2024-04-23 14:02:57,090 Page not found for GET /apple-touch-icon.png
+[contactor] ERROR 2024-04-23 14:02:57,090 Page not found for GET /apple-touch-icon.png
+[contactor] WARNING 2024-04-23 14:02:57,093 Not Found: /favicon.ico
+[contactor] WARNING 2024-04-23 14:02:57,094 "GET /favicon.ico HTTP/1.1" 404 179
+[contactor] ERROR 2024-04-23 14:02:57,104 Page not found for GET /apple-touch-icon-precomposed.png
+[contactor] ERROR 2024-04-23 14:02:57,104 Page not found for GET /apple-touch-icon-precomposed.png
+[contactor] ERROR 2024-04-23 14:02:57,106 Page not found for GET /apple-touch-icon.png
+[contactor] ERROR 2024-04-23 14:02:57,106 Page not found for GET /apple-touch-icon.png
+[contactor] WARNING 2024-04-23 14:02:57,108 Not Found: /favicon.ico
+[contactor] WARNING 2024-04-23 14:02:57,108 "GET /favicon.ico HTTP/1.1" 404 179
+[contactor] ERROR 2024-04-23 14:02:57,115 Page not found for GET /apple-touch-icon-precomposed.png
+[contactor] ERROR 2024-04-23 14:02:57,115 Page not found for GET /apple-touch-icon-precomposed.png
+[contactor] ERROR 2024-04-23 14:02:57,119 Page not found for GET /apple-touch-icon.png
+[contactor] ERROR 2024-04-23 14:02:57,119 Page not found for GET /apple-touch-icon.png
+[contactor] WARNING 2024-04-23 14:02:57,123 Not Found: /favicon.ico
+[contactor] WARNING 2024-04-23 14:02:57,123 "GET /favicon.ico HTTP/1.1" 404 179
+[contactor] ERROR 2024-04-23 14:02:57,125 Page not found for GET /apple-touch-icon-precomposed.png
+[contactor] ERROR 2024-04-23 14:02:57,125 Page not found for GET /apple-touch-icon-precomposed.png
+[contactor] ERROR 2024-04-23 14:02:57,127 Page not found for GET /apple-touch-icon.png
+[contactor] ERROR 2024-04-23 14:02:57,127 Page not found for GET /apple-touch-icon.png
+[contactor] WARNING 2024-04-23 14:02:57,128 Not Found: /favicon.ico
+[contactor] WARNING 2024-04-23 14:02:57,129 "GET /favicon.ico HTTP/1.1" 404 179
